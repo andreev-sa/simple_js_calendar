@@ -1,0 +1,48 @@
+/* 
+    Document   : cldStyle
+    Created on : 13.04.2013, 11:10:38
+    Author     : andreev.s.a    
+*/
+.b-cld{
+    width: 220px;
+    vertical-align: top;
+    text-align: center;
+    padding: 5px;
+    display: inline;
+}
+
+.cld_week,.cld_header{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+}
+
+.cld_day{
+    display: inline;
+}
+.cld_woorkingDay, .cld_weekend{
+    display: inline-block;
+    padding: 3px;
+    text-align: center;
+    width: 20px;
+}
+
+.cld_header .cld_woorkingDay, .cld_header .cld_weekend{
+    border-bottom: 1px solid grey;
+}
+
+.cld_woorkingDay{ 
+    color: grey;
+}
+
+.cld_weekend{ 
+    color: lightcoral;
+}
+
+
+.cld_day-today{
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 2px;
+}
